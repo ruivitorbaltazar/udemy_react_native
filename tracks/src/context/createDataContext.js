@@ -1,5 +1,4 @@
 import React, { useReducer } from 'react';
-import { State } from 'react-native-gesture-handler';
 
 export default (reducer, actions, defaultValue) => {
   const Context = React.createContext();
