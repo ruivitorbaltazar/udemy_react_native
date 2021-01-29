@@ -10,6 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
     "react": "16.13.1",
     "react-native": "0.63.4"
   },
