@@ -6,6 +6,8 @@ import firebase from 'firebase';
 import reducers from './reducers';
 import LoginForm from './components/LoginForm';
 import { Header } from './components/common';
+import Router from './Router';
+import { View } from 'react-native';
 
 export class App extends Component {
   componentDidMount() {
@@ -28,8 +30,8 @@ export class App extends Component {
     
     return (
       <Provider store={store}>
-        <Header headerText="MANAGER"/>
-        <LoginForm />
+        {/* <Header headerText="MANAGER"/> */}
+        <Router />
       </Provider>
     )
   }
